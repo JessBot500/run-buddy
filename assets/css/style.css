@@ -190,9 +190,22 @@ margin-top: 10px;
     overflow: auto;
 }
 
+.trainer2 {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+
 .trainer img {
     width: 35%;
     float: left;
+}
+
+.trainer2 img {
+    width: 35%;
+    float: right;
 }
 
 /* Trainer Bios Style */
