@@ -12,3 +12,5 @@ http://JessBot500.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Jess Bergstrom
+
+# Run Buddy Inc.
