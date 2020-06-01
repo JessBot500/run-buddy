@@ -18,6 +18,7 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: flex;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -42,6 +43,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /* end header */
 
@@ -112,6 +114,7 @@ color: red;
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
@@ -121,6 +124,8 @@ color: red;
     background-color: #fce138;
     padding: 20px;
     color: #024e76;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .hero-form h3 {
@@ -140,6 +145,7 @@ color: red;
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 /* intro */
@@ -273,7 +279,7 @@ flex: 1 30%;
     background: #fce138; 
   }
   
-  .service-grid-wrapper {
+.service-grid-wrapper {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -372,6 +378,7 @@ flex: 1 30%;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -382,6 +389,7 @@ flex: 1 30%;
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
     
 }
 
@@ -467,8 +475,9 @@ justify-content: center;
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    .hero-formbutton {
+    .hero-form button {
         width: 100%;
+        border-radius: 10px;
     }
 
     .section-title {
